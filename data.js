@@ -6,7 +6,7 @@ const offres = [
         diplome: "Bac+5 ",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-31",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/refs/heads/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: <img src="https://raw.githubusercontent.com/klst999/E-Jobs-Mali/main/fekola.jpg" alt="Fekola">,  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
     {
