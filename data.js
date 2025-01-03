@@ -6,7 +6,7 @@ const offres = [
         diplome: "Bac+5 ",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-31",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
     {
@@ -16,7 +16,7 @@ const offres = [
         diplome: "Bac+3 Topographie",
         datePublication: "15 Décembre 2024",
         dateFin: "2025-01-16",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
     },
     {
@@ -26,7 +26,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-31",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
     {
