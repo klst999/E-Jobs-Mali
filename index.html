@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Jobs Mali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>E-Jobs Mali</h1>
+            <p class="catchphrase">Votre avenir professionnel commence ici – découvrez les opportunités qui vous attendent et postulez dès aujourd'hui avec E-Jobs Mali, la passerelle vers votre prochain emploi !</p>
+        </div>
+    </header>
+
+    <section class="job-offers">
+        <h2>Offres d'Emploi</h2>
+        <!-- Les offres d'emploi seront listées ici -->
+    </section>
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Remonter en haut">▲</button>
+    <section class="offres" id="offres">
+        <!-- Les offres seront insérées ici par JavaScript -->
+
+        
+
+    </section>
+
+    <script src="data.js"></script>
+    <script>
+        // Fonction pour afficher les offres d'emploi et cacher celles expirées
+        function afficherOffres() {
+    const currentDate = new Date();
+    const offresUniques = new Set();  // Pour suivre les offres déjà ajoutées
+    const offresContainer = document.getElementById('offres');
+
+    // Nettoyer le conteneur avant d'ajouter de nouvelles offres (évite la duplication)
+    offresContainer.innerHTML = '';
+
+    offres.forEach(offre => {
+        const dateFin = new Date(offre.dateFin);
+        const key = `${offre.titre}-${offre.entreprise}`;  // Clé unique basée sur titre + entreprise
+
+        if (!offresUniques.has(key)) {
+            offresUniques.add(key);  // Ajoute la clé pour éviter les doublons
+
+            const offreElement = document.createElement('div');
+            offreElement.classList.add('offre-card');
+
+            if (currentDate > dateFin) {
+    offreElement.innerHTML = `
+        <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
+        <h3>${offre.titre}</h3>
+        <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
+        <p><strong>Lieu :</strong> ${offre.lieu}</p>
+        <p><strong>Diplôme :</strong> ${offre.diplome}</p>
+        <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
+        <p><strong>Date limite :</strong> ${offre.dateFin}</p>
+        <p style="color:red;">Offre expirée</p>
+    `;
+} else {
+    offreElement.innerHTML = `
+        <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
+        <h3>${offre.titre}</h3>
+        <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
+        <p><strong>Lieu :</strong> ${offre.lieu}</p>
+        <p><strong>Diplôme :</strong> ${offre.diplome}</p>
+        <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
+        <p><strong>Date limite :</strong> ${offre.dateFin}</p>
+        <a href="${offre.lien}" target="_blank">Voir l'offre</a>
+    `;
+}
+            // Ajouter à la section correcte
+            offresContainer.appendChild(offreElement);
+        }
+    });
+}
+        // Appel de la fonction pour afficher les offres
+        afficherOffres();
+        window.onscroll = function() {
+    showScrollButton();
+};
+
+function showScrollButton() {
+    const btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+    </script>
+</body>
+</html>
