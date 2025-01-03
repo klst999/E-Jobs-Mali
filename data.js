@@ -86,7 +86,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "02 Janvier 2025",
         dateFin: "31 Janvier 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14682"
     },
     {
@@ -96,7 +96,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "02 Janvier 2025",
         dateFin: "02 Février 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
     },
      {
@@ -136,7 +136,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "2 Janvier 2025",
         dateFin: "20 Janvier 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14682"
     },
     {
@@ -146,7 +146,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "2 Janvier 2025",
         dateFin: "2 Février 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://github.com/klst999/E-Jobs-Mali/blob/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
     },
     {
