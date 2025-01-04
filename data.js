@@ -16,7 +16,7 @@ const offres = [
         diplome: "Bac+3 Topographie",
         datePublication: "15 Décembre 2024",
         dateFin: "2025-01-16",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
     },
     {
@@ -26,7 +26,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-31",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
     {
@@ -36,7 +36,7 @@ const offres = [
         diplome: "Bac+3 Topographie",
         datePublication: "15 Décembre 2024",
         dateFin: "2025-01-16",  // Format ISO
-        logo: "images/fekola.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
     },
     {
@@ -46,7 +46,7 @@ const offres = [
         diplome: "Infirmier",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-14",  // Format ISO
-        logo: "images/Croix-rouge.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://malibaara.com/jobs/details/14678"
     },
     {
@@ -56,7 +56,7 @@ const offres = [
         diplome: "Bac+Informatique",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-15",  // Format ISO
-        logo: "images/Talent.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://malibaara.com/jobs/details/14677"
     },
     {
@@ -66,7 +66,7 @@ const offres = [
         diplome: "Bac+3 ",
         datePublication: "31 Décembre 2024",
         dateFin: "2025-01-15",  // Format ISO
-        logo: "images/Solidarite.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Solidarite.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://yabara.net/solidarites-international-recrute-gestionnaire-finance-comptabilite-et-rh-h-f/"
     },
     {
@@ -76,7 +76,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "15 Décembre 2024",
         dateFin: "2025-01-08",  // Format ISO
-        logo: "images/Borda.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Borda.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
     },
     {
@@ -86,7 +86,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "02 Janvier 2025",
         dateFin: "31 Janvier 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14682"
     },
     {
@@ -96,7 +96,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "02 Janvier 2025",
         dateFin: "02 Février 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
     },
      {
@@ -106,7 +106,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "3 Janvier 2025",
         dateFin: "15 Janvier 2025",
-        logo: "images/Talent.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
         lien: "https://yabara.net/talents-plus-conseils-recrute-specialiste-en-gestion-de-lenvironnement-h-f/"
     },
     {
@@ -116,7 +116,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "3 Janvier 2025",
         dateFin: "12 Janvier 2025",
-        logo: "images/Talent.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
         lien: "https://yabara.net/talents-plus-conseil-recrute-05-commerciaux-h-f/"
     },
     {
@@ -126,7 +126,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "2 Janvier 2025",
         dateFin: "16 Janvier 2025",
-        logo: "images/fekola.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
         lien: "https://malibaara.com/jobs/details/14683"
     },
     {
@@ -136,7 +136,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "2 Janvier 2025",
         dateFin: "20 Janvier 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14682"
     },
     {
@@ -146,7 +146,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "2 Janvier 2025",
         dateFin: "2 Février 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
     },
     {
@@ -156,7 +156,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "2 Janvier 2025",
         dateFin: "2 Février 2025",
-        logo: "images/Bmk.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14680"
     },
     {
@@ -166,7 +166,7 @@ const offres = [
         diplome: "Non requis",
         datePublication: "2 Janvier 2025",
         dateFin: "24 Janvier 2025",
-        logo: "images/idh.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/idh.jpg",
         lien: "https://malibaara.com/jobs/details/14679"
     },
     {
@@ -176,7 +176,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "31 Décembre 2024",
         dateFin: "14 Janvier 2025",
-        logo: "images/Croix-rouge.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",
         lien: "https://malibaara.com/#google_vignette"
     },
     {
@@ -186,7 +186,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "31 Décembre 2024",
         dateFin: "15 Janvier 2025",
-        logo: "images/Talent.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
         lien: "https://malibaara.com/jobs/details/14677"
     },
     {
@@ -196,7 +196,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "31 Décembre 2024",
         dateFin: "14 Janvier 2025",
-        logo: "images/Croix-rouge.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",
         lien: "https://malibaara.com/jobs/details/14676"
     },
     {
@@ -236,7 +236,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "30 Décembre 2024",
         dateFin: "15 Janvier 2025",
-        logo: "images/lithium.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/lithium.jpg",
         lien: "https://malibaara.com/jobs/details/14673"
     },
     {
@@ -246,7 +246,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "28 Décembre 2024",
         dateFin: "12 Janvier 2025",
-        logo: "images/fekola.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
         lien: "https://malibaara.com/jobs/details/14671"
     },
     {
@@ -256,7 +256,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "28 Décembre 2024",
         dateFin: "12 Janvier 2025",
-        logo: "images/fekola.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
         lien: "https://malibaara.com/jobs/details/14672"
     },
     {
@@ -266,7 +266,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "28 Décembre 2024",
         dateFin: "12 Janvier 2025",
-        logo: "images/fekola.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
         lien: "https://malibaara.com/jobs/details/14669"
     }
 ];
