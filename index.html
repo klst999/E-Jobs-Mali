@@ -10,92 +10,126 @@
 <meta name="robots" content="index, follow">
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#offres">Offres d'emploi</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- En-tête -->
+    <header id="home">
         <div class="header-container">
             <h1>E-Jobs Mali</h1>
             <p class="catchphrase">Votre avenir professionnel commence ici – découvrez les opportunités qui vous attendent et postulez dès aujourd'hui avec E-Jobs Mali, la passerelle vers votre prochain emploi !</p>
         </div>
     </header>
 
-    <section class="job-offers">
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <h2>À propos de E-Jobs Mali</h2>
+        <p>E-Jobs Mali est une plateforme simple et rapide pour découvrir les offres d'emploi au Mali. Nous facilitons votre recherche en centralisant les opportunités et en vous redirigeant vers les sites d'origine.</p>
+    </section>
+
+    <!-- Section Offres d'emploi -->
+    <section id="offres" class="job-offers">
         <h2>Offres d'Emploi</h2>
-        <!-- Les offres d'emploi seront listées ici -->
+        <div class="offres-container">
+            <!-- Les offres seront insérées ici par JavaScript -->
+        </div>
     </section>
+
+    <!-- Bouton "Remonter en haut" -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Remonter en haut">▲</button>
-    <section class="offres" id="offres">
-        <!-- Les offres seront insérées ici par JavaScript -->
 
-        
-
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Email : allojevoyage@gmail.com</p>
+        <p>Téléphone : +22367080555</p>
     </section>
 
+    <!-- Pied de page -->
+    <footer class="footer">
+        <p>&copy; 2025 E-Jobs Mali. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Script pour afficher les offres d'emploi -->
     <script src="data.js"></script>
     <script>
-        // Fonction pour afficher les offres d'emploi et cacher celles expirées
         function afficherOffres() {
-    const currentDate = new Date();
-    const offresUniques = new Set();  // Pour suivre les offres déjà ajoutées
-    const offresContainer = document.getElementById('offres');
+            const currentDate = new Date();
+            const offresUniques = new Set(); // Suivi des offres déjà ajoutées
+            const offresContainer = document.querySelector('.offres-container');
+            offresContainer.innerHTML = ''; // Nettoyage pour éviter les doublons
 
-    // Nettoyer le conteneur avant d'ajouter de nouvelles offres (évite la duplication)
-    offresContainer.innerHTML = '';
+            offres.forEach(offre => {
+                const dateFin = new Date(offre.dateFin);
+                const key = `${offre.titre}-${offre.entreprise}`; // Clé unique
 
-    offres.forEach(offre => {
-        const dateFin = new Date(offre.dateFin);
-        const key = `${offre.titre}-${offre.entreprise}`;  // Clé unique basée sur titre + entreprise
+                if (!offresUniques.has(key)) {
+                    offresUniques.add(key);
 
-        if (!offresUniques.has(key)) {
-            offresUniques.add(key);  // Ajoute la clé pour éviter les doublons
+                    const offreElement = document.createElement('div');
+                    offreElement.classList.add('offre-card');
 
-            const offreElement = document.createElement('div');
-            offreElement.classList.add('offre-card');
-
-            if (currentDate > dateFin) {
-    offreElement.innerHTML = `
-        <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
-        <h3>${offre.titre}</h3>
-        <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
-        <p><strong>Lieu :</strong> ${offre.lieu}</p>
-        <p><strong>Diplôme :</strong> ${offre.diplome}</p>
-        <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
-        <p><strong>Date limite :</strong> ${offre.dateFin}</p>
-        <p style="color:red;">Offre expirée</p>
-    `;
-} else {
-    offreElement.innerHTML = `
-        <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
-        <h3>${offre.titre}</h3>
-        <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
-        <p><strong>Lieu :</strong> ${offre.lieu}</p>
-        <p><strong>Diplôme :</strong> ${offre.diplome}</p>
-        <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
-        <p><strong>Date limite :</strong> ${offre.dateFin}</p>
-        <a href="${offre.lien}" target="_blank">Voir l'offre</a>
-    `;
-}
-            // Ajouter à la section correcte
-            offresContainer.appendChild(offreElement);
+                    if (currentDate > dateFin) {
+                        offreElement.innerHTML = `
+                            <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
+                            <h3>${offre.titre}</h3>
+                            <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
+                            <p><strong>Lieu :</strong> ${offre.lieu}</p>
+                            <p><strong>Diplôme :</strong> ${offre.diplome}</p>
+                            <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
+                            <p><strong>Date limite :</strong> ${offre.dateFin}</p>
+                            <p style="color:red;">Offre expirée</p>
+                        `;
+                    } else {
+                        offreElement.innerHTML = `
+                            <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
+                            <h3>${offre.titre}</h3>
+                            <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
+                            <p><strong>Lieu :</strong> ${offre.lieu}</p>
+                            <p><strong>Diplôme :</strong> ${offre.diplome}</p>
+                            <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
+                            <p><strong>Date limite :</strong> ${offre.dateFin}</p>
+                            <a href="${offre.lien}" target="_blank">Voir l'offre</a>
+                        `;
+                    }
+                    offresContainer.appendChild(offreElement);
+                }
+            });
         }
-    });
-}
-        // Appel de la fonction pour afficher les offres
         afficherOffres();
-        window.onscroll = function() {
-    showScrollButton();
-};
 
-function showScrollButton() {
-    const btn = document.getElementById("scrollTopBtn");
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        btn.style.display = "block";
-    } else {
-        btn.style.display = "none";
-    }
-}
+        window.onscroll = function () {
+            showScrollButton();
+        };
 
-function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+        function showScrollButton() {
+            const btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     </script>
 </body>
 </html>
