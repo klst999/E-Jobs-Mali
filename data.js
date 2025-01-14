@@ -7,7 +7,8 @@ const offres = [
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "31 Janvier 2025",
-        logo: "itm.jpg",
+        ISO
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/itm.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://malibaara.com/jobs/details/14721"
     },
     {
@@ -18,7 +19,7 @@ const offres = [
         diplome: "Bac+3",
         datePublication: "13 Janvier 2025",
         dateFin: "26 Janvier 2025",
-        logo: "rescue.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/rescue.jpg",  // Chemin vers le logo de l'entreprise",
         lien: "https://malibaara.com/jobs/details/14720"
     },
     {
@@ -29,7 +30,7 @@ const offres = [
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
-        logo: "societe.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.jpg",
         lien: "https://malibaara.com/jobs/details/14719"
     },
     {
@@ -40,7 +41,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
-        logo: "societe.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.jpg",
         lien: "https://malibaara.com/jobs/details/14718"
     },
     {
@@ -51,7 +52,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "24 Janvier 2025",
-        logo: "fond.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fond.jpg",
         lien: "https://malibaara.com/jobs/details/14717"
     },
     {
@@ -61,7 +62,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "10 Janvier 2025",
         dateFin: "24 Janvier 2025",
-        logo: "croix.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/croix.jpg",
         lien: "https://malibaara.com/jobs/details/14714"
     },
         {
@@ -72,7 +73,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "10 Janvier 2025",
         dateFin: "20 Janvier 2025",
-        logo: "Saba.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Saba.jpg",
         lien: "https://malibaara.com/jobs/details/14712"
     },
         {
@@ -83,7 +84,7 @@ const offres = [
         diplome: "Bac+5",
         datePublication: "10 Janvier 2025",
         dateFin: "30 Janvier 2025",
-        logo: "lihium.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/lihium.jpg",
         lien: "https://malibaara.com/jobs/details/14710"
     },
     {
