@@ -29,7 +29,7 @@ const offres = [
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.JPG",
         lien: "https://malibaara.com/jobs/details/14719"
     },
     {
@@ -40,7 +40,7 @@ const offres = [
         diplome: "Bac+4",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.jpg",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.JPG",
         lien: "https://malibaara.com/jobs/details/14718"
     },
     {
