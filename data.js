@@ -7,7 +7,6 @@ const offres = [
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "31 Janvier 2025",
-        ISO
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/itm.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://malibaara.com/jobs/details/14721"
     },
