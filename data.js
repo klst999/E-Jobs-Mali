@@ -1,31 +1,31 @@
 const offres = [    
-   {
+     {
         titre: "RESPONSABLE DU SYSTEME D'INFORMATION GENERALITES",
         entreprise: "Le Cabinet ITM Audit et Conseils SARL",
         lieu: "Bamako",
-         salaire : "800 000 fcfa - 1 500 000 fcfa",
+        salaire: "800 000 FCFA - 1 500 000 FCFA",
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "31 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/itm.jpg",  // Chemin vers le logo de l'entreprise
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/itm.jpg",
         lien: "https://malibaara.com/jobs/details/14721"
     },
     {
-        titre: "Officer CCCM (Chargé (e) de la Coordination et gestion des Camps) Menaka,",
+        titre: "Officer CCCM (Chargé (e) de la Coordination et gestion des Camps)",
         entreprise: "International Rescue Committee",
-        lieu: "Menaka",
-         salaire : "500 000 fcfa - 1 200 000 fcfa",
+        lieu: "Ménaka",
+        salaire: "500 000 FCFA - 1 200 000 FCFA",
         diplome: "Bac+3",
         datePublication: "13 Janvier 2025",
         dateFin: "26 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/rescue.jpg",  // Chemin vers le logo de l'entreprise",
+        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/rescue.jpg",
         lien: "https://malibaara.com/jobs/details/14720"
     },
     {
-        titre: "Responsable Commercial et Commerciaux.",
+        titre: "Responsable Commercial et Commerciaux",
         entreprise: "Une Société de la place",
         lieu: "Bamako",
-         salaire : "400 000 fcfa - 1 200 000 fcfa",
+        salaire: "400 000 FCFA - 1 200 000 FCFA",
         diplome: "Bac+4 et Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
@@ -36,7 +36,7 @@ const offres = [
         titre: "RESPONSABLE COMPTABLE",
         entreprise: "Une Société de la place",
         lieu: "Bamako",
-        salaire : "400 000 fcfa - 1 000 000 fcfa",
+        salaire: "400 000 FCFA - 1 000 000 FCFA",
         diplome: "Bac+4",
         datePublication: "13 Janvier 2025",
         dateFin: "03 Février 2025",
@@ -47,7 +47,7 @@ const offres = [
         titre: "UN/UNE ECONOMISTE",
         entreprise: "Fonds Monétaire International",
         lieu: "Bamako",
-       salaire : "800 000 fcfa - 1 500 000 fcfa",
+        salaire: "800 000 FCFA - 1 500 000 FCFA",
         diplome: "Bac+5",
         datePublication: "13 Janvier 2025",
         dateFin: "24 Janvier 2025",
@@ -55,31 +55,21 @@ const offres = [
         lien: "https://malibaara.com/jobs/details/14717"
     },
     {
-        titre: "Un (e) (01) Coordinateur (trice) National(e)",
+        titre: "Un (e) Coordinateur (trice) National(e)",
         entreprise: "Croix-Rouge Malienne",
         lieu: "Bamako",
+        salaire: "Non précisé",
         diplome: "Bac+4",
         datePublication: "10 Janvier 2025",
         dateFin: "24 Janvier 2025",
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/croix.jpg",
         lien: "https://malibaara.com/jobs/details/14714"
     },
-        {
-        titre: "RESPONSABLE APPROVISIONNEMENT ET MARCHES PUBLICS.",
-        entreprise: "Groupe SABA MALI",
-        lieu: "Bamako",
-        salaire : "400 000 fcfa - 1 000 000 fcfa",
-        diplome: "Bac+4",
-        datePublication: "10 Janvier 2025",
-        dateFin: "20 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Saba.jpg",
-        lien: "https://malibaara.com/jobs/details/14712"
-    },
-        {
+    {
         titre: "Ingénieur Installation de Stockage des Résidus",
         entreprise: "Lithium du Mali SA",
         lieu: "Gouloumina",
-        salaire : "800 000 fcfa - 1 500 000 fcfa",
+        salaire: "800 000 FCFA - 1 500 000 FCFA",
         diplome: "Bac+5",
         datePublication: "10 Janvier 2025",
         dateFin: "30 Janvier 2025",
