@@ -87,16 +87,6 @@ const offres = [
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
     {
-        titre: "Fekola SA recrute un Topographe de Mine, Mali.",
-        entreprise: "Fekola SA",
-        lieu: "Mali",
-        diplome: "Bac+3 Topographie",
-        datePublication: "15 Décembre 2024",
-        dateFin: "2025-01-16",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
-    },
-    {
         titre: "Fekola SA recherche un Ingénieur Géotechnicien, Mali",
         entreprise: "Fekola SA",
         lieu: "Mali",
@@ -106,56 +96,7 @@ const offres = [
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
         lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-ingenieur-dcs-senior-mali/"
     },
-    {
-        titre: "Topographe de Mine",
-        entreprise: "Fekola SA",
-        lieu: "Mali",
-        diplome: "Bac+3 Topographie",
-        datePublication: "15 Décembre 2024",
-        dateFin: "2025-01-16",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
-    },
-    {
-        titre: "Infirmier.re (2) du Bloc opératoire",
-        entreprise: " Croix-Rouge",
-        lieu: "Gao",
-        diplome: "Infirmier",
-        datePublication: "31 Décembre 2024",
-        dateFin: "2025-01-14",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://malibaara.com/jobs/details/14678"
-    },
-    {
-        titre: "Un (01) « Informaticien spécialiste en base de données»",
-        entreprise: "TALENTS PLUS CONSEILS MALI",
-        lieu: "Mali",
-        diplome: "Bac+Informatique",
-        datePublication: "31 Décembre 2024",
-        dateFin: "2025-01-15",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://malibaara.com/jobs/details/14677"
-    },
-    {
-        titre: "SOLIDARITES INTERNATIONAL RECRUTE GESTIONNAIRE FINANCE COMPTABILITE ET RH H/F",
-        entreprise: " Solidarité International",
-        lieu: "Bamako",
-        diplome: "Bac+3 ",
-        datePublication: "31 Décembre 2024",
-        dateFin: "2025-01-15",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Solidarite.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://yabara.net/solidarites-international-recrute-gestionnaire-finance-comptabilite-et-rh-h-f/"
-    },
-    {
-        titre: "BORDA MALI RECRUTE RESPONSABLE PROJET H/F",
-        entreprise: " Borda Mali",
-        lieu: "Mali",
-        diplome: "Bac+5",
-        datePublication: "15 Décembre 2024",
-        dateFin: "2025-01-08",  // Format ISO
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Borda.jpg",  // Chemin vers le logo de l'entreprise
-        lien: "https://www.jobrapide.org/offres/avis-recrutement/fekola-sa-recrute-un-topographe-de-mine-mali/"
-    },
+
     {
         titre: "NOUS RECHERCHONS  1 RESPONSABLE DU MAGASIN PIÈCES DE RECHANGE H/F",
         entreprise: "BMK RH Consulting",
@@ -176,36 +117,7 @@ const offres = [
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
     },
-     {
-        titre: "Spécialiste en Gestion de l’Environnement",
-        entreprise: "TALENTS PLUS CONSEILS MALI",
-        lieu: "Mali",
-        diplome: "Bac+5",
-        datePublication: "3 Janvier 2025",
-        dateFin: "15 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
-        lien: "https://yabara.net/talents-plus-conseils-recrute-specialiste-en-gestion-de-lenvironnement-h-f/"
-    },
-    {
-        titre: "Cinq (05) Commerciaux",
-        entreprise: "TALENTS PLUS CONSEILS MALI",
-        lieu: "Mali",
-        diplome: "Bac+3",
-        datePublication: "3 Janvier 2025",
-        dateFin: "12 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
-        lien: "https://yabara.net/talents-plus-conseil-recrute-05-commerciaux-h-f/"
-    },
-    {
-        titre: "Ingénieur Géotechnicien de Mine Souterraine",
-        entreprise: "B2Gold Corp.",
-        lieu: "Mali",
-        diplome: "Bac+5",
-        datePublication: "2 Janvier 2025",
-        dateFin: "16 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
-        lien: "https://malibaara.com/jobs/details/14683"
-    },
+
     {
         titre: "Responsable du Magasin Pièces de Rechange H/F",
         entreprise: "BMK RH Consulting",
@@ -247,46 +159,6 @@ const offres = [
         lien: "https://malibaara.com/jobs/details/14679"
     },
     {
-        titre: "Infirmier.re (2) du Bloc opératoire",
-        entreprise: "Comité international de la Croix-Rouge (CICR)",
-        lieu: "Gao",
-        diplome: "Bac+3",
-        datePublication: "31 Décembre 2024",
-        dateFin: "14 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",
-        lien: "https://malibaara.com/#google_vignette"
-    },
-    {
-        titre: "Informaticien Spécialiste en Base de Données",
-        entreprise: "TALENTS PLUS CONSEILS MALI",
-        lieu: "Mali",
-        diplome: "Bac+4",
-        datePublication: "31 Décembre 2024",
-        dateFin: "15 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Talent.jpg",
-        lien: "https://malibaara.com/jobs/details/14677"
-    },
-    {
-        titre: "Nutritionniste",
-        entreprise: "Comité international de la Croix-Rouge (CICR)",
-        lieu: "Bamako",
-        diplome: "Bac+4",
-        datePublication: "31 Décembre 2024",
-        dateFin: "14 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",
-        lien: "https://malibaara.com/jobs/details/14676"
-    },
-    {
-        titre: "SPECIALISTE EN MARKETING H/F",
-        entreprise: "TIGANA LAB",
-        lieu: "Bamako",
-        diplome: "Bac+3 ",
-        datePublication: "02 Janvier 2025",
-        dateFin: "15 Janvier 2025",
-        logo: "images/charge_administration.jpg",
-        lien: "https://yabara.net/specialiste-en-marketing-h-f/"
-    },
-    {
         titre: "Expertise France recrute un(e) Assistant(e) de projet - Facilité d'Assistance Technique (H/F)",        
         entreprise: "Expertise France",
         lieu: "Paris",
@@ -296,56 +168,6 @@ const offres = [
         logo: "images/chef_projet_it.jpg",
         lien: "https://www.jobrapide.org/offres/avis-recrutement/expertise-france-recrute-une-assistante-de-projet-facilite-dassistance-technique-h-f-paris-france/"
     },
-    {
-        titre: "Assistante de direction stagiaire",
-        entreprise: "Terre des hommes (Tdh)",
-        lieu: "Bamako",
-        diplome: "Bac+3",
-        datePublication: "30 Décembre 2024",
-        dateFin: "12 Janvier 2025",
-        logo: "images/responsable_rh.jpg",
-        lien: "https://malibaara.com/jobs/details/14674"
-    },
-    {
-        titre: "Surintendant du Contenu Local",
-        entreprise: "LMSA",
-        lieu: "Bamako",
-        diplome: "Bac+3",
-        datePublication: "30 Décembre 2024",
-        dateFin: "15 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/lithium.jpg",
-        lien: "https://malibaara.com/jobs/details/14673"
-    },
-    {
-        titre: "Ingénieur de mine",
-        entreprise: "B2Gold Corp.",
-        lieu: "Bamako",
-        diplome: "Bac+5",
-        datePublication: "28 Décembre 2024",
-        dateFin: "12 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
-        lien: "https://malibaara.com/jobs/details/14671"
-    },
-    {
-        titre: "Ingénieur Senior de Mine",
-        entreprise: "B2Gold Corp.",
-        lieu: "Bamako",
-        diplome: "Bac+5",
-        datePublication: "28 Décembre 2024",
-        dateFin: "12 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
-        lien: "https://malibaara.com/jobs/details/14672"
-    },
-    {
-        titre: "Géologue de Mine",
-        entreprise: "B2Gold Corp.",
-        lieu: "Bamako",
-        diplome: "Bac+5",
-        datePublication: "28 Décembre 2024",
-        dateFin: "12 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fekola.jpg",
-        lien: "https://malibaara.com/jobs/details/14669"
-    }
 ];
 
 const currentDate = new Date();  // Date actuelle
