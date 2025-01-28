@@ -22,138 +22,6 @@ const offres = [
     lien: 'https://malibaara.com/jobs/details/14754'
   },
   {
-    titre: 'Administrateur des Contrats',
-    entreprise: 'Fekola SA',
-    lieu: "Kayes(Kenieba)",
-         salaire : "200 000 fcfa - 800 000fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14752'
-  },
-  {
-    titre: 'Géologue de Mine',
-    entreprise: 'Fekola SA',
-    lieu: "Kayes(Kenieba)",
-         salaire : "200 000 fcfa - 800 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14751'
-  },
-  {
-    titre: 'Ingénieur DCS Senior',
-    entreprise: 'Fekola SA',
-      lieu: "Kayes(Kenieba)",
-    salaire : "400 000 fcfa - 1 200 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14750'
-  },
-  {
-    titre: 'Comptable Financier',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "200 000 fcfa - 800 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14749'
-  },
-  {
-    titre: 'Comptable Financier Projets Régionaux',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "200 000 fcfa - 800 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14748'
-  },
-  {
-    titre: 'Topographe de Mine',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "200 000 fcfa - 800 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14747'
-  },
-  {
-    titre: 'Ingénieur Géotechnicien',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "400 000 fcfa - 1 200 000 fcfa",
-        diplome: "Bac+5",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14746'
-  },
-  {
-    titre: 'Ingénieur Géotechnicien Senior',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "400 000 fcfa - 1 200 000 fcfa",
-        diplome: "Bac+5",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14745'
-  },
-  {
-    titre: 'Ingénieur de mine',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "400 000 fcfa - 1 200 000 fcfa",
-        diplome: "Bac+5",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14744'
-  },
-  {
-    titre: 'Ingénieur Senior de mine',
-    entreprise: 'Fekola SA',
-     lieu: "Kayes(Kenieba)",
-    salaire : "400 000 fcfa - 1 200 000 fcfa",
-        diplome: "Bac+3",
-    datePublication: '17 Janvier 2025',
-    dateFin: '26 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',     
-    lien: 'https://malibaara.com/jobs/details/14743'
-  },
-  {
-    titre: 'Opérateur Jumbo',
-    entreprise: 'SOMISY',
-     lieu: "Sikasso ",
-    salaire : "100 000 fcfa - 300 000 fcfa",
-        diplome: "Def",
-    datePublication: '16 Janvier 2025',
-    dateFin: '27 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2d4d5e0b-3d1d-4e21-927a-4ff72a2ea0e4/SOMISY.png',
-    lien: 'https://malibaara.com/jobs/details/14742'
-  },
-  {
-    titre: 'Comptable',
-    entreprise: 'Helvetas Mali',
-     lieu: "Sikasso",
-    salaire : "200 000 fcfa - 800 000 fcfa",
-        diplome: "Bac+4",
-    datePublication: '16 Janvier 2025',
-    dateFin: '25 Janvier 2025',
-    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/30e0dd9b-4edc-49a4-bb27-aa1305fc46a0/Helvetas%20Mali.png', 
-    lien: 'https://malibaara.com/jobs/details/14741'
-  },
-  {
     titre: 'Un (1) Responsable de Volet Insertion socio-économique',
     entreprise: 'Humanite et Inclusion',
     lieu: "Mali",
@@ -297,17 +165,6 @@ const offres = [
         lien: "https://malibaara.com/jobs/details/14721"
     },
     {
-        titre: "Officer CCCM (Chargé (e) de la Coordination et gestion des Camps)",
-        entreprise: "International Rescue Committee",
-        lieu: "Ménaka",
-        salaire: "500 000 FCFA - 1 200 000 FCFA",
-        diplome: "Bac+3",
-        datePublication: "13 Janvier 2025",
-        dateFin: "26 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/rescue.jpg",
-        lien: "https://malibaara.com/jobs/details/14720"
-    },
-    {
         titre: "Responsable Commercial et Commerciaux",
         entreprise: "Une Société de la place",
         lieu: "Bamako",
@@ -328,28 +185,6 @@ const offres = [
         dateFin: "03 Février 2025",
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/societe.JPG",
         lien: "https://malibaara.com/jobs/details/14718"
-    },
-    {
-        titre: "UN/UNE ECONOMISTE",
-        entreprise: "Fonds Monétaire International",
-        lieu: "Bamako",
-        salaire: "800 000 FCFA - 1 500 000 FCFA",
-        diplome: "Bac+5",
-        datePublication: "13 Janvier 2025",
-        dateFin: "24 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/fond.jpg",
-        lien: "https://malibaara.com/jobs/details/14717"
-    },
-    {
-        titre: "Un (e) Coordinateur (trice) National(e)",
-        entreprise: "Croix-Rouge Malienne",
-        lieu: "Bamako",
-        salaire: "Non précisé",
-        diplome: "Bac+4",
-        datePublication: "10 Janvier 2025",
-        dateFin: "24 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Croix-rouge.jpg",
-        lien: "https://malibaara.com/jobs/details/14714"
     },
     {
         titre: "Ingénieur Installation de Stockage des Résidus",
@@ -402,17 +237,6 @@ const offres = [
         dateFin: "02 Février 2025",
         logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
         lien: "https://malibaara.com/jobs/details/14681"
-    },
-
-    {
-        titre: "Responsable du Magasin Pièces de Rechange H/F",
-        entreprise: "BMK RH Consulting",
-        lieu: "Bamako",
-        diplome: "Bac+3",
-        datePublication: "2 Janvier 2025",
-        dateFin: "20 Janvier 2025",
-        logo: "https://raw.githubusercontent.com/klst999/E-Jobs-Mali/Principal/Bmk.jpg",
-        lien: "https://malibaara.com/jobs/details/14682"
     },
     {
         titre: "Chef de Service de l’Audit H/F",
