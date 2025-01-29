@@ -257,9 +257,76 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.contact p {
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-    margin-top: 10px;
+/* MEDIA QUERIES POUR LA RÉACTIVITÉ */
+
+/* Pour les petits écrans (mobiles) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Taille de police plus petite sur mobile */
+    }
+
+    h1 {
+        font-size: 2rem; /* Ajuste la taille du titre */
+    }
+
+    .catchphrase {
+        font-size: 1rem; /* Ajuste la taille de la catchphrase */
+    }
+
+    .offres {
+        flex-direction: column; /* Organise les cartes en colonne sur les petits écrans */
+        gap: 15px; /* Réduit l'écart entre les cartes */
+    }
+
+    .offre-card {
+        width: 90%; /* Les cartes prennent 90% de la largeur de l'écran */
+        max-width: none; /* Désactive la largeur maximale */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* La barre de navigation devient verticale */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0; /* Espace les éléments de navigation */
+    }
+
+    .contact {
+        padding: 20px 10px; /* Moins de padding dans le formulaire sur mobile */
+    }
+
+    .footer {
+        font-size: 14px; /* Réduit la taille de la police dans le pied de page */
+    }
+}
+
+/* Pour les tablettes (de 768px à 1024px) */
+@media (max-width: 1024px) {
+    .offres {
+        gap: 20px; /* L'écart entre les cartes est légèrement plus grand */
+    }
+
+    .offre-card {
+        width: 45%; /* Les cartes occupent 45% de la largeur sur tablette */
+    }
+
+    .navbar ul {
+        justify-content: flex-start; /* Les éléments de navigation sont alignés à gauche sur tablette */
+    }
+}
+
+/* Pour les grands écrans (ordinateurs de bureau) */
+@media (min-width: 1025px) {
+    .container {
+        padding: 0 30px; /* Plus de padding pour les grands écrans */
+    }
+
+    .offres {
+        gap: 30px; /* L'écart est plus large sur les grands écrans */
+    }
+
+    .offre-card {
+        width: 30%; /* Les cartes prennent 30% de la largeur de l'écran */
+    }
 }
