@@ -257,49 +257,13 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* MEDIA QUERIES POUR LA RÉACTIVITÉ */
-
-/* Pour les petits écrans (mobiles) */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Taille de police plus petite sur mobile */
-    }
-
-    h1 {
-        font-size: 2rem; /* Ajuste la taille du titre */
-    }
-
-    .catchphrase {
-        font-size: 1rem; /* Ajuste la taille de la catchphrase */
-    }
-
-    .offres {
-        flex-direction: column; /* Organise les cartes en colonne sur les petits écrans */
-        gap: 15px; /* Réduit l'écart entre les cartes */
-    }
-
-    .offre-card {
-        width: 90%; /* Les cartes prennent 90% de la largeur de l'écran */
-        max-width: none; /* Désactive la largeur maximale */
-    }
-
-    .navbar ul {
-        flex-direction: column; /* La barre de navigation devient verticale */
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 10px 0; /* Espace les éléments de navigation */
-    }
-
-    .contact {
-        padding: 20px 10px; /* Moins de padding dans le formulaire sur mobile */
-    }
-
-    .footer {
-        font-size: 14px; /* Réduit la taille de la police dans le pied de page */
-    }
+.contact p {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
 }
+
 
 /* Pour les tablettes (de 768px à 1024px) */
 @media (max-width: 1024px) {
