@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Jobs Mali</title>
     <link rel="stylesheet" href="style.css">
-<meta name="description" content="Plateforme de recherche d'emploi et de recrutement au Mali, trouvez des offres d'emploi et postulez facilement.">
-<meta name="keywords" content="emplois Mali, recrutement, offres d'emploi, E-Jobs Mali">
-<meta name="robots" content="index, follow">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3284182507492867"
-     crossorigin="anonymous"></script>
+    <meta name="description" content="Plateforme de recherche d'emploi et de recrutement au Mali, trouvez des offres d'emploi et postulez facilement.">
+    <meta name="keywords" content="emplois Mali, recrutement, offres d'emploi, E-Jobs Mali">
+    <meta name="robots" content="index, follow">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3284182507492867" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#offres">Offres d'emploi</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" aria-label="Aller à l'accueil">Accueil</a></li>
+            <li><a href="#about" aria-label="En savoir plus sur nous">À propos</a></li>
+            <li><a href="#offres" aria-label="Voir les offres d'emploi">Offres d'emploi</a></li>
+            <li><a href="#contact" aria-label="Nous contacter">Contact</a></li>
         </ul>
     </nav>
 
@@ -39,9 +38,7 @@
     <!-- Section Offres d'emploi -->
     <section id="offres" class="job-offers">
         <h2>Offres d'Emploi</h2>
-        <div class="offres-container">
-            <!-- Les offres seront insérées ici par JavaScript -->
-        </div>
+        <div class="offres-container"></div>
     </section>
 
     <!-- Bouton "Remonter en haut" -->
@@ -71,65 +68,56 @@
     <!-- Script pour afficher les offres d'emploi -->
     <script src="data.js"></script>
     <script>
+        const mois = {
+            "Janvier": 0, "Février": 1, "Mars": 2, "Avril": 3, "Mai": 4, "Juin": 5,
+            "Juillet": 6, "Août": 7, "Septembre": 8, "Octobre": 9, "Novembre": 10, "Décembre": 11
+        };
+
+        function convertirDate(dateStr) {
+            const [jour, moisNom, annee] = dateStr.split(' ');
+            return new Date(annee, mois[moisNom], jour);
+        }
+
         function afficherOffres() {
             const currentDate = new Date();
-            const offresUniques = new Set(); // Suivi des offres déjà ajoutées
+            const offresUniques = new Set();
             const offresContainer = document.querySelector('.offres-container');
-            offresContainer.innerHTML = ''; // Nettoyage pour éviter les doublons
+            offresContainer.innerHTML = '';
 
             offres.forEach(offre => {
-                const dateFin = new Date(offre.dateFin);
-                const key = `${offre.titre}-${offre.entreprise}`; // Clé unique
+                const dateFin = convertirDate(offre.dateFin);
+                const key = `${offre.titre}-${offre.entreprise}`;
 
-                if (!offresUniques.has(key)) {
+                if (!offresUniques.has(key) && currentDate <= dateFin) {
                     offresUniques.add(key);
 
                     const offreElement = document.createElement('div');
                     offreElement.classList.add('offre-card');
 
-                    if (currentDate > dateFin) {
-                        offreElement.innerHTML = `
-                            <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
-                            <h3>${offre.titre}</h3>
-                            <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
-                            <p><strong>Lieu :</strong> ${offre.lieu}</p>
-                              <p><strong>Salaire Estimé :</strong> ${offre.salaire}</p>
-                            <p><strong>Diplôme :</strong> ${offre.diplome}</p>
-                            <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
-                            <p><strong>Date limite :</strong> ${offre.dateFin}</p>
-                            <p style="color:red;">Offre expirée</p>
-                        `;
-                    } else {
-                        offreElement.innerHTML = `
-                            <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
-                            <h3>${offre.titre}</h3>
-                            <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
-                            <p><strong>Lieu :</strong> ${offre.lieu}</p>
-                              <p><strong>Salaire Estimé:</strong> ${offre.salaire}</p>
-                            <p><strong>Diplôme :</strong> ${offre.diplome}</p>
-                            <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
-                            <p><strong>Date limite :</strong> ${offre.dateFin}</p>
-                            <a href="${offre.lien}" target="_blank">Voir l'offre</a>
-                        `;
-                    }
+                    offreElement.innerHTML = `
+                        <img src="${offre.logo}" alt="Logo de ${offre.entreprise}" class="logo">
+                        <h3>${offre.titre}</h3>
+                        <p><strong>Entreprise :</strong> ${offre.entreprise}</p>
+                        <p><strong>Lieu :</strong> ${offre.lieu}</p>
+                        <p><strong>Diplôme :</strong> ${offre.diplome}</p>
+                        <p><strong>Date de publication :</strong> ${offre.datePublication}</p>
+                        <p><strong>Date limite :</strong> ${offre.dateFin}</p>
+                        <a href="${offre.lien}" target="_blank" rel="noopener noreferrer">Voir l'offre</a>
+                    `;
                     offresContainer.appendChild(offreElement);
                 }
             });
         }
         afficherOffres();
 
+        let isScrolling;
         window.onscroll = function () {
-            showScrollButton();
+            window.clearTimeout(isScrolling);
+            isScrolling = setTimeout(() => {
+                const btn = document.getElementById("scrollTopBtn");
+                btn.style.display = (window.scrollY > 300) ? "block" : "none";
+            }, 100);
         };
-
-        function showScrollButton() {
-            const btn = document.getElementById("scrollTopBtn");
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        }
 
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
