@@ -144,38 +144,36 @@ h1 {
 #scrollTopBtn:hover {
     background-color: #0056b3;
 }
-
-/* NAVIGATION */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #333;
-    padding: 10px 0;
-    z-index: 1000;
-}
-
+/* Navigation UL */
 .navbar ul {
-    list-style: none;
     display: flex;
+    flex-wrap: wrap;        /* ✅ permet le retour à la ligne */
     justify-content: center;
-    margin: 0;
+    row-gap: 10px;          /* ✅ espace vertical entre les lignes du menu */
+    column-gap: 20px;       /* ✅ espace horizontal */
     padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-.navbar ul li {
-    margin: 0 15px;
+/* Pour éviter chevauchement du contenu */
+body {
+    padding-top: 100px;     /* ✅ espace en haut pour laisser passer le menu */
 }
 
+/* Liens du menu */
 .navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    padding: 6px 10px;
+    display: inline-block;
 }
 
 .navbar ul li a:hover {
     text-decoration: underline;
 }
+
 
 /* PIED DE PAGE */
 .footer {
@@ -263,3 +261,50 @@ h1 {
     font-size: 14px;
     margin-top: 10px;
 }
+/* CONSEILS EMPLOI */
+#conseils {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+#conseils h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#conseils article {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 6px solid #007BFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
+#conseils h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+#conseils p, #conseils li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+#conseils ul, #conseils ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+#conseils ul li::before {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
