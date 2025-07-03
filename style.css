@@ -144,6 +144,21 @@ h1 {
 #scrollTopBtn:hover {
     background-color: #0056b3;
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* Navigation UL */
 .navbar ul {
     display: flex;
@@ -173,7 +188,6 @@ body {
 .navbar ul li a:hover {
     text-decoration: underline;
 }
-
 
 /* PIED DE PAGE */
 .footer {
@@ -306,5 +320,4 @@ body {
     color: #007BFF;
     font-weight: bold;
 }
-
 
