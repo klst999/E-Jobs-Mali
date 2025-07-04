@@ -228,7 +228,7 @@ const offres = [
     dateFin: "20 Aout 2025",
     logo: "https://malibaara.com/assets/images/default-job.png",
     lien: "https://malibaara.com/jobs/details/15200"
-  }
+  },
   {
     titre: "Acheteur/Approvisionneur (Mangue)",
     entreprise: "UMO Mali",
