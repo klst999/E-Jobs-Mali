@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <url>
-    <loc>https://www.e-jobsmali.fr/</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
 
-  <url>
-    <loc>https://www.e-jobsmali.fr/offres.html</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://e-jobsmali.fr/</loc>
+  <lastmod>2025-07-14T18:59:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://e-jobsmali.fr/politiquedeconfidentialite.html</loc>
+  <lastmod>2025-07-14T18:59:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://e-jobsmali.fr/conseil.html</loc>
+  <lastmod>2025-07-14T18:59:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://www.e-jobsmali.fr/contact.html</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- Exemple d’une page d’offre d’emploi -->
-  <url>
-    <loc>https://www.e-jobsmali.fr/offres/assistant-administratif.html</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
 
 </urlset>
