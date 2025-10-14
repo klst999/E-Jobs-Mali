@@ -1,244 +1,294 @@
 const offres = [    
 {
-  titre: 'Quatre (4) Chargé(e)s Techniques Santé Mentale et Soutien Psychosociale (Psychologues)',
-  entreprise: 'Humanite et Inclusion',
-  lieu: 'Bamako, Mali',
-  diplome: 'Master en psychologie clinique ou équivalent',
-  datePublication: '7 Aout 2025',
-  dateFin: '17 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2ce9567b-c653-4757-8582-1abd2fb2c436/Humanite%20et%20Inclusion.png',
-  lien: 'https://malibaara.com/jobs/details/15345'
-},
-{
-  titre: 'Magasinier',
-  entreprise: 'IENG GROUP',
-  lieu: 'Bamako, Mali',
-  diplome: 'BEP ou CAP Logistique ou équivalent',
-  datePublication: '7 Aout 2025',
-  dateFin: '22 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/3b735171-5edb-458d-9533-4a8e6960130b/1571306680049.jpg',
-  lien: 'https://malibaara.com/jobs/details/15344'
-},
-{
-  titre: 'UN (01) soudeur',
-  entreprise: 'Une société de sous-traitance minière',
-  lieu: 'Kéniéba, Mali',
-  diplome: 'CAP en soudure ou équivalent',
-  datePublication: '7 Aout 2025',
-  dateFin: '13 Aout 2025',
-  logo: 'https://malibaara.com/assets/images/default-job.png',
-  lien: 'https://malibaara.com/jobs/details/15343'
-},
-{
-  titre: 'Conseiller Financier Senior',
-  entreprise: 'SOMISY',
-  lieu: 'Yanfolila, Mali',
-  diplome: 'Master en Finance ou Gestion',
-  datePublication: '6 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2d4d5e0b-3d1d-4e21-927a-4ff72a2ea0e4/unnamed%20(6).png',
-  lien: 'https://malibaara.com/jobs/details/15342'
-},
-{
-  titre: 'Directeur Maintenance des Equipements Mobiles',
-  entreprise: 'SOMISY',
-  lieu: 'Yanfolila, Mali',
-  diplome: 'Bac+5 en Électromécanique ou équivalent',
-  datePublication: '6 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2d4d5e0b-3d1d-4e21-927a-4ff72a2ea0e4/unnamed%20(6).png',
-  lien: 'https://malibaara.com/jobs/details/15341'
-},
-{
-  titre: "Spécialiste en Fibre Optique et Systèmes d'Automatisation",
-  entreprise: 'SOMISY',
-  lieu: 'Yanfolila, Mali',
-  diplome: 'Licence en Réseaux ou Automatisme',
-  datePublication: '6 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2d4d5e0b-3d1d-4e21-927a-4ff72a2ea0e4/unnamed%20(6).png',
-  lien: 'https://malibaara.com/jobs/details/15340'
-},
-{
-  titre: 'Un Consultant en Archivage Électronique',
-  entreprise: 'Croix-Rouge Malienne',
-  lieu: 'Bamako, Mali',
-  diplome: 'Master en domaine lié au projet',
-  datePublication: '6 Aout 2025',
-  dateFin: '12 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/cd9f44f5-5855-45fb-ab26-14339bb9af9d/logo%20CRM.png',
-  lien: 'https://malibaara.com/jobs/details/15339'
-},
-{
-  titre: 'Consultant local en santé maternelle et infantile',
-  entreprise: 'FHI360',
-  lieu: 'Bamako, Mali',
-  diplome: 'Master en domaine lié au projet',
-  datePublication: '6 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2a7459f7-39e2-4bc6-9d1f-4e8110a10753/LOGO-FHI-360-NEW.png',
-  lien: 'https://malibaara.com/jobs/details/15338'
-},
-{
-  titre: 'Consultant local en nutrition',
-  entreprise: 'FHI360',
-  lieu: 'Bamako, Mali',
-  diplome: 'Master en domaine lié au projet',
-  datePublication: '6 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2a7459f7-39e2-4bc6-9d1f-4e8110a10753/LOGO-FHI-360-NEW.png',
-  lien: 'https://malibaara.com/jobs/details/15337'
-},
-{
-  titre: 'Un Responsable Logistique Industrielle',
-  entreprise: 'La filiale d’un Groupe multinational industriel',
-  lieu: 'Bamako, Mali',
-  diplome: 'Licence en Logistique',
-  datePublication: '5 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara.com/assets/images/default-job.png',
-  lien: 'https://malibaara.com/jobs/details/15336'
-},
-{
-  titre: 'PLANIFICATEUR DE MAINTENANCE',
-  entreprise: 'Une société de sous-traitance minière',
-  lieu: 'Kéniéba, Mali',
-  diplome: 'Bac+3 en maintenance industrielle',
-  datePublication: '5 Aout 2025',
-  dateFin: '20 Aout 2025',
-  logo: 'https://malibaara.com/assets/images/default-job.png',
-  lien: 'https://malibaara.com/jobs/details/15335'
-},
-{
-  titre: 'Maintenance Superintendent',
-  entreprise: 'Une société de sous-traitance minière',
-  lieu: 'Kéniéba, Mali',
-  diplome: 'Bac+4 en Électromécanique',
-  datePublication: '5 Aout 2025',
-  dateFin: '20 Aout 2025',
-  logo: 'https://malibaara.com/assets/images/default-job.png',
-  lien: 'https://malibaara.com/jobs/details/15334'
-},
-{
-  titre: 'MAINTENANCE MANAGER',
-  entreprise: 'Une société de sous-traitance minière',
-  lieu: 'Kéniéba, Mali',
-  diplome: 'Bac+4 en Électromécanique',
-  datePublication: '5 Aout 2025',
-  dateFin: '20 Aout 2025',
-  logo: 'https://malibaara.com/assets/images/default-job.png',
-  lien: 'https://malibaara.com/jobs/details/15333'
-},
-{
-  titre: 'Un (e) Gestionnaire de la Chaine Approvisionnement 1',
-  entreprise: 'Comité international de la Croix-Rouge (CICR)',
-  lieu: 'Bamako, Mali',
-  diplome: 'Licence en Logistique',
-  datePublication: '5 Aout 2025',
-  dateFin: '15 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/53063cd6-69ff-4fc7-b1bc-22f48596fc77/Comit%C3%A9%20international%20de%20la%20Croix-Rouge%20(CICR).png',
-  lien: 'https://malibaara.com/jobs/details/15332'
-},
-{
-  titre: 'Un (01) « Responsable Audit Interne»',
-  entreprise: 'TALENTS PLUS CONSEILS MALI',
-  lieu: 'Bamako, Mali',
-  diplome: 'Bac+5 en Gestion ou équivalent',
-  datePublication: '4 Aout 2025',
-  dateFin: '4 Septembre 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/20e903a3-3337-4d82-902e-6e219de1d31d/TALENTS%20PLUS%20CONSEILS%20MALI.png',
-  lien: 'https://malibaara.com/jobs/details/15330'
-},
-{
-  titre: 'Un (01) « Contrôleur de Gestion »',
-  entreprise: 'TALENTS PLUS CONSEILS MALI',
-  lieu: 'Bamako, Mali',
-  diplome: 'Master en Comptabilité ou Contrôle',
-  datePublication: '4 Aout 2025',
-  dateFin: '4 Septembre 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/20e903a3-3337-4d82-902e-6e219de1d31d/TALENTS%20PLUS%20CONSEILS%20MALI.png',
-  lien: 'https://malibaara.com/jobs/details/15329'
-},
-{
-  titre: 'Un (01) « Comptable Général Senior »',
-  entreprise: 'TALENTS PLUS CONSEILS MALI',
-  lieu: 'Bamako, Mali',
-  diplome: 'Licence en Comptabilité',
-  datePublication: '4 Aout 2025',
-  dateFin: '4 Septembre 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/20e903a3-3337-4d82-902e-6e219de1d31d/TALENTS%20PLUS%20CONSEILS%20MALI.png',
-  lien: 'https://malibaara.com/jobs/details/15328'
-},
-{
-  titre: 'Projects Head',
-  entreprise: 'IENG GROUP',
-  lieu: 'Bamako, Mali',
-  diplome: 'Bac+5 en Gestion de Projet',
-  datePublication: '4 Aout 2025',
-  dateFin: '18 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/3b735171-5edb-458d-9533-4a8e6960130b/1571306680049.jpg',
-  lien: 'https://malibaara.com/jobs/details/15327'
-},
-{
-  titre: 'Technicien Maintenance & Réglages Machines',
-  entreprise: 'SAER EMPLOI',
-  lieu: 'Bamako, Mali',
-  diplome: 'BTS ou DUT en domaine technique',
-  datePublication: '4 Aout 2025',
-  dateFin: '11 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/00933e81-dfaa-4e34-8864-785037464ef9/SAER%20EMPLOI.png',
-  lien: 'https://malibaara.com/jobs/details/15326'
-},
-{
-  titre: 'RECRUTEMENT DE CONSULTANT.ES POUR LA TRANSCRIPTION D’AUDIO REÇUS SUR LA PLATEFORME ULIZA',
-  entreprise: 'Farm Radio International',
-  lieu: 'Bamako, Mali',
-  diplome: 'Licence en Communication ou équivalent',
-  datePublication: '4 Aout 2025',
-  dateFin: '7 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9b0f23e0-2701-4d4a-a3d7-690adcc42bce/Farm%20Radio%20International.png',
-  lien: 'https://malibaara.com/jobs/details/15325'
-},
-{
-  titre: 'Comptable d’Usine',
-  entreprise: 'SAER EMPLOI',
-  lieu: 'Bamako, Mali',
-  diplome: 'Licence en Comptabilité',
-  datePublication: '4 Aout 2025',
-  dateFin: '11 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/00933e81-dfaa-4e34-8864-785037464ef9/SAER%20EMPLOI.png',
-  lien: 'https://malibaara.com/jobs/details/15324'
-},
-{
-  titre: 'Chargé(e) de Partenariats',
-  entreprise: 'Humundi',
-  lieu: 'Bamako, Mali',
-  diplome: 'Bac+3 en Sciences sociales ou équivalent',
-  datePublication: '1 Aout 2025',
-  dateFin: '20 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/f0ca449c-1f0c-4ffe-94eb-d43f90c133fc/humundirgbV2enpetitlogoseul.jpg',
-  lien: 'https://malibaara.com/jobs/details/15323'
-},
-{
-  titre: 'ATTENTION : RECRUTEMENT FRAUDULEUX',
-  entreprise: 'Fekola SA',
-  lieu: 'Kéniéba, Mali',
-  diplome: 'Bac+3 ou équivalent',
-  datePublication: '1 Aout 2025',
-  dateFin: '5 Septembre 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',
-  lien: 'https://malibaara.com/jobs/details/15319'
-},
-{
-  titre: 'Un Chargé(e) de Projet',
-  entreprise: 'AFRIK EMPLOI',
-  lieu: 'Bamako, Mali',
-  diplome: 'Bac+3 en Sciences sociales ou équivalent',
-  datePublication: '1 Aout 2025',
-  dateFin: '9 Aout 2025',
-  logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/c0ce9091-95c1-4ac5-8462-7e201bdfe4ed/AFRIK%20EMPLOI-2.png',
-  lien: 'https://malibaara.com/jobs/details/15318'
-}
+    titre: 'Responsable Point de Consommation',
+    entreprise: 'UMO Mali',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en commerce, gestion ou équivalent',
+    datePublication: '13 Octobre 2025',
+    dateFin: '27 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/13df3294-7401-4626-882b-3cd0346bedb7/UMO%20Mali.png',
+    lien: 'https://malibaara.com/jobs/details/15540'
+  },
+  {
+    titre: 'Commercial Terrain',
+    entreprise: 'UMO Mali',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en marketing, commerce ou équivalent',
+    datePublication: '13 Octobre 2025',
+    dateFin: '27 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/13df3294-7401-4626-882b-3cd0346bedb7/UMO%20Mali.png',
+    lien: 'https://malibaara.com/jobs/details/15539'
+  },
+  {
+    titre: 'Un Assistant Supply Chain',
+    entreprise: 'International Rescue Committee',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence ou Master en logistique, supply chain ou équivalent',
+    datePublication: '10 Octobre 2025',
+    dateFin: '19 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9d45aa87-cb76-4372-a888-664300166c2d/logo%20irc.png',
+    lien: 'https://malibaara.com/jobs/details/15538'
+  },
+  {
+    titre: 'Un Officer Protection',
+    entreprise: 'International Rescue Committee',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en sciences sociales ou équivalent',
+    datePublication: '10 Octobre 2025',
+    dateFin: '17 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9d45aa87-cb76-4372-a888-664300166c2d/logo%20irc.png',
+    lien: 'https://malibaara.com/jobs/details/15537'
+  },
+  {
+    titre: 'Un (01) Responsable Auditeur interne',
+    entreprise: 'Une Société de la place',
+    lieu: 'Bamako, Mali',
+    diplome: 'Master en audit, finance ou équivalent',
+    datePublication: '10 Octobre 2025',
+    dateFin: '26 Octobre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15535'
+  },
+  {
+    titre: 'Directeur Travaux',
+    entreprise: 'Une Société de la place',
+    lieu: 'Kayes, Mali',
+    diplome: 'Diplôme d’ingénieur en génie civil ou équivalent',
+    datePublication: '10 Octobre 2025',
+    dateFin: '20 Octobre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15534'
+  },
+  {
+    titre: 'Directeur Associé – Finances, EpiC Mali',
+    entreprise: 'FHI360',
+    lieu: 'Bamako, Mali',
+    diplome: 'Master en finance, économie ou équivalent',
+    datePublication: '9 Octobre 2025',
+    dateFin: '24 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/2a7459f7-39e2-4bc6-9d1f-4e8110a10753/LOGO-FHI-360-NEW.png',
+    lien: 'https://malibaara.com/jobs/details/15533'
+  },
+  {
+    titre: 'BOURSE DE FORMATION PROFESSIONNELLE',
+    entreprise: "AMC CONSULTING’S GROUP",
+    lieu: 'Bamako, Mali',
+    diplome: 'Ouvert à tout niveau selon le domaine de formation',
+    datePublication: '9 Octobre 2025',
+    dateFin: '6 Novembre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9d8bfcd9-9687-48fb-8b84-42a50ad85e89/AMG%20Consulting.jpg',
+    lien: 'https://malibaara.com/jobs/details/15532'
+  },
+  {
+    titre: 'Gestionnaire Administratif',
+    entreprise: 'UMO Mali',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en administration, gestion ou équivalent',
+    datePublication: '8 Octobre 2025',
+    dateFin: '17 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/13df3294-7401-4626-882b-3cd0346bedb7/UMO%20Mali.png',
+    lien: 'https://malibaara.com/jobs/details/15531'
+  },
+  {
+    titre: 'Agent de Sécurité',
+    entreprise: 'UMO INTERIM',
+    lieu: 'Bamako, Mali',
+    diplome: 'Niveau secondaire ou formation en sécurité exigé',
+    datePublication: '6 Octobre 2025',
+    dateFin: '31 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/b5147069-951e-468a-bacb-6500f78076e9/UMO%20INTERIM.png',
+    lien: 'https://malibaara.com/jobs/details/15526'
+  },
+  {
+    titre: 'Un (e) Agent Terrain généraliste 2',
+    entreprise: 'Comité international de la Croix-Rouge (CICR)',
+    lieu: 'Mopti, Mali',
+    diplome: 'Licence en sciences sociales, santé publique ou équivalent',
+    datePublication: '6 Octobre 2025',
+    dateFin: '19 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/53063cd6-69ff-4fc7-b1bc-22f48596fc77/Comit%C3%A9%20international%20de%20la%20Croix-Rouge%20(CICR).png',
+    lien: 'https://malibaara.com/jobs/details/15525'
+  },
+  {
+    titre: 'Officer Nutrition',
+    entreprise: 'International Rescue Committee',
+    lieu: 'Ségou, Mali',
+    diplome: 'Diplôme en nutrition, santé publique ou équivalent',
+    datePublication: '3 Octobre 2025',
+    dateFin: '12 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9d45aa87-cb76-4372-a888-664300166c2d/logo%20irc.png',
+    lien: 'https://malibaara.com/jobs/details/15522'
+  },
+  {
+    titre: 'Officier Santé',
+    entreprise: 'International Rescue Committee',
+    lieu: 'Koulikoro, Mali',
+    diplome: 'Diplôme en médecine, santé publique ou équivalent',
+    datePublication: '3 Octobre 2025',
+    dateFin: '12 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/9d45aa87-cb76-4372-a888-664300166c2d/logo%20irc.png',
+    lien: 'https://malibaara.com/jobs/details/15520'
+  },
+  {
+    titre: 'Monitoring, Evaluation and Learning Officer',
+    entreprise: 'ICRAF',
+    lieu: 'Bamako, Mali',
+    diplome: 'Master en statistiques, suivi-évaluation ou équivalent',
+    datePublication: '3 Octobre 2025',
+    dateFin: '17 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/7541a460-2404-445a-88fd-243616d4ad63/ICRAF.png',
+    lien: 'https://malibaara.com/jobs/details/15519'
+  },
+  {
+    titre: 'Conseiller Technique Régional.e EJM',
+    entreprise: 'Terre des hommes Lausanne',
+    lieu: 'Bamako, Mali',
+    diplome: 'Master en développement, psychologie ou équivalent',
+    datePublication: '3 Octobre 2025',
+    dateFin: '3 Novembre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/53786645-df32-470b-9539-0d9e4ddc1c56/Terre%20des%20hommes%20Lausanne.png',
+    lien: 'https://malibaara.com/jobs/details/15518'
+  },
+  {
+    titre: 'Distributeur Mobil Money',
+    entreprise: 'UMO INTERIM',
+    lieu: 'Bamako, Mali',
+    diplome: 'Niveau Bac minimum ou formation commerciale',
+    datePublication: '2 Octobre 2025',
+    dateFin: '31 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/b5147069-951e-468a-bacb-6500f78076e9/UMO%20INTERIM.png',
+    lien: 'https://malibaara.com/jobs/details/15514'
+  },
+  {
+    titre: 'Assistant Comptable',
+    entreprise: 'Une Société de la place',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en comptabilité, finance ou équivalent',
+    datePublication: '2 Octobre 2025',
+    dateFin: '1 Novembre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15513'
+  },
+  {
+    titre: 'Un(e) Spécialiste en Archivage',
+    entreprise: 'Plan International Mali',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en archivistique, documentation ou équivalent',
+    datePublication: '2 Octobre 2025',
+    dateFin: '12 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/c2d943a9-87c0-4c85-9d1a-751ebf7dc3af/Plan%20International%20Mali.png',
+    lien: 'https://malibaara.com/jobs/details/15512'
+  },
+  {
+    titre: 'Stagiaire Commerciale',
+    entreprise: 'UMO Mali',
+    lieu: 'Bamako, Mali',
+    diplome: 'Bac+2 en commerce ou marketing',
+    datePublication: '2 Octobre 2025',
+    dateFin: '31 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/13df3294-7401-4626-882b-3cd0346bedb7/UMO%20Mali.png',
+    lien: 'https://malibaara.com/jobs/details/15511'
+  },
+  {
+    titre: 'Surintendant de l’ingénierie Minière',
+    entreprise: 'Fekola SA',
+    lieu: 'Kayes, Mali',
+    diplome: 'Diplôme d’ingénieur en mines ou géologie',
+    datePublication: '1 Octobre 2025',
+    dateFin: '16 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/833b9c51-3979-45e2-8536-48589945f286/Fekola%20SA.png',
+    lien: 'https://malibaara.com/jobs/details/15509'
+  },
+  {
+    titre: 'Un (01) Surintendant Section électrique',
+    entreprise: 'SEMOS SA',
+    lieu: 'Kayes, Mali',
+    diplome: 'Diplôme d’ingénieur électricien ou équivalent',
+    datePublication: '1 Octobre 2025',
+    dateFin: '15 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/0d5307c9-acb8-4b9d-b87d-cf1340e04308/SEMOS%20SA.png',
+    lien: 'https://malibaara.com/jobs/details/15508'
+  },
+  {
+    titre: 'Surintendant Manager du Département Électrique H/F',
+    entreprise: 'Workinafrika',
+    lieu: 'Bamako, Mali',
+    diplome: 'Diplôme d’ingénieur en électricité ou maintenance industrielle',
+    datePublication: '1 Octobre 2025',
+    dateFin: '29 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/3a49eb22-348a-49cf-9598-90191b012203/logo%20lotus.png',
+    lien: 'https://malibaara.com/jobs/details/15507'
+  },
+  {
+    titre: 'Un Chauffeur privé',
+    entreprise: 'Workinafrika',
+    lieu: 'Bamako, Mali',
+    diplome: 'Permis de conduire catégorie B ou plus',
+    datePublication: '1 Octobre 2025',
+    dateFin: '29 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/3a49eb22-348a-49cf-9598-90191b012203/logo%20lotus.png',
+    lien: 'https://malibaara.com/jobs/details/15506'
+  },
+  {
+    titre: 'SPECIALE BOURSE D’ETUDES UNIVERSITAIRES / SYSTEME LMD',
+    entreprise: 'IDH Consulting Group',
+    lieu: 'Bamako, Mali',
+    diplome: 'Ouvert aux bacheliers et étudiants',
+    datePublication: '30 Septembre 2025',
+    dateFin: '30 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/5128aea1-2579-4575-8a3a-61c4afa5e08a/IDH%20International.png',
+    lien: 'https://malibaara.com/jobs/details/15505'
+  },
+  {
+    titre: 'Recrutement d’un prestataire national(e) pour la production d’une vidéo',
+    entreprise: "Ecole Nationale d'Administration Publique",
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en communication, audiovisuel ou équivalent',
+    datePublication: '30 Septembre 2025',
+    dateFin: '17 Octobre 2025',
+    logo: "https://malibaara-assets.s3.eu-west-3.amazonaws.com/59f2ddc9-29fa-4be7-ac06-4a5a2356f6de/Ecole%20Nationale%20d'Administration%20Publique.png",
+    lien: 'https://malibaara.com/jobs/details/15504'
+  },
+  {
+    titre: 'UN(E) STAGIAIRE COMMERCIAL(E)',
+    entreprise: 'Une Société de la place',
+    lieu: 'Bamako, Mali',
+    diplome: 'Bac+2 en commerce ou gestion',
+    datePublication: '29 Septembre 2025',
+    dateFin: '30 Octobre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15501'
+  },
+  {
+    titre: 'Commercial Terrain H/F',
+    entreprise: 'Workinafrika',
+    lieu: 'Bamako, Mali',
+    diplome: 'Licence en marketing ou commerce',
+    datePublication: '26 Septembre 2025',
+    dateFin: '26 Octobre 2025',
+    logo: 'https://malibaara-assets.s3.eu-west-3.amazonaws.com/3a49eb22-348a-49cf-9598-90191b012203/logo%20lotus.png',
+    lien: 'https://malibaara.com/jobs/details/15498'
+  },
+  {
+    titre: 'MANDATAIRE SOCIAL H/F',
+    entreprise: 'CIFIP',
+    lieu: 'Bamako, Mali',
+    diplome: 'Master en droit social ou gestion RH',
+    datePublication: '24 Septembre 2025',
+    dateFin: '15 Octobre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15489'
+  },
+  {
+    titre: 'Une Assistante administrative',
+    entreprise: 'Une Société de la place',
+    lieu: 'Bamako, Mali',
+    diplome: 'Bac+2 en secrétariat ou gestion administrative',
+    datePublication: '28 Aout 2025',
+    dateFin: '15 Octobre 2025',
+    logo: 'https://malibaara.com/assets/images/default-job.png',
+    lien: 'https://malibaara.com/jobs/details/15410'
+  }
 ];
 
 
